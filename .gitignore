@@ -1,0 +1,15 @@
+# Build çıktıları
+bin/
+obj/
+
+# Visual Studio kullanıcı ayarları
+.vs/
+*.user
+*.suo
+
+# NuGet paketleri (gerekirse yeniden indirilir)
+packages/
+
+# Gizli bilgiler (connection string, API key vb.)
+appsettings.Development.json
+secrets.json
