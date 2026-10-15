@@ -13,3 +13,5 @@ packages/
 # Gizli bilgiler (connection string, API key vb.)
 appsettings.Development.json
 secrets.json
+# Üçüncü taraf şablon (lisans ve anahtar riski nedeniyle takip edilmiyor)
+StoreFlow/wwwroot/Melody-Premium-Bootstrap-Admin-Dashboard-Template/
