@@ -1,0 +1,60 @@
+﻿INSERT INTO Categories (CategoryName, CategoryStatus)
+VALUES
+    ('Elektronik', 1),
+    ('Bilgisayar', 1),
+    ('Telefon ve Aksesuar', 1),
+    ('Beyaz Eşya', 1),
+    ('Küçük Ev Aletleri', 1),
+    ('Mutfak Gereçleri', 1),
+    ('Mobilya', 1),
+    ('Ev Tekstili', 1),
+    ('Banyo', 1),
+    ('Bahçe ve Dış Mekan', 1),
+    ('Giyim', 1),
+    ('Kadın Giyim', 1),
+    ('Erkek Giyim', 1),
+    ('Çocuk Giyim', 1),
+    ('Ayakkabı', 1),
+    ('Çanta ve Cüzdan', 1),
+    ('Kozmetik', 1),
+    ('Kişisel Bakım', 1),
+    ('Spor ve Outdoor', 1),
+    ('Kitap ve Kırtasiye', 1);
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+    INSERT INTO Customers (CustomerName, CustomerSurname, CustomerCity, CustomerDistrict, CustomerBalance)
+VALUES
+    (N'Ahmet', N'Yılmaz', N'İstanbul', N'Kadıköy', 1250.50),
+    (N'Ayşe', N'Demir', N'Ankara', N'Çankaya', 830.00),
+    (N'Mehmet', N'Kaya', N'İzmir', N'Bornova', 2100.75),
+    (N'Fatma', N'Çelik', N'Bursa', N'Nilüfer', 0.00),
+    (N'Mustafa', N'Şahin', N'Antalya', N'Muratpaşa', 575.20),
+    (N'Emine', N'Yıldız', N'Konya', N'Selçuklu', 1480.00),
+    (N'Ali', N'Öztürk', N'Adana', N'Seyhan', 320.90),
+    (N'Hatice', N'Aydın', N'Gaziantep', N'Şahinbey', 960.00),
+    (N'Hüseyin', N'Özdemir', N'Mersin', N'Yenişehir', 1775.35),
+    (N'Zeynep', N'Arslan', N'Kayseri', N'Melikgazi', 410.00),
+    (N'İbrahim', N'Doğan', N'Eskişehir', N'Odunpazarı', 2890.10),
+    (N'Elif', N'Kılıç', N'Samsun', N'İlkadım', 640.45),
+    (N'Murat', N'Aslan', N'Trabzon', N'Ortahisar', 0.00),
+    (N'Merve', N'Çetin', N'Kocaeli', N'İzmit', 1025.00),
+    (N'Hasan', N'Kurt', N'Denizli', N'Pamukkale', 455.60),
+    (N'Büşra', N'Özkan', N'Sakarya', N'Adapazarı', 1310.85),
+    (N'Yusuf', N'Polat', N'Tekirdağ', N'Süleymanpaşa', 780.00),
+    (N'Esra', N'Erdoğan', N'Balıkesir', N'Karesi', 2255.40),
+    (N'Ömer', N'Koç', N'Manisa', N'Yunusemre', 190.75),
+    (N'Sevgi', N'Güneş', N'Hatay', N'Antakya', 1600.00),
+    (N'Kemal', N'Aksoy', N'Malatya', N'Yeşilyurt', 735.20),
+    (N'Gül', N'Bulut', N'Erzurum', N'Yakutiye', 3050.00),
+    (N'Serkan', N'Tunç', N'Van', NULL, 0.00),
+    (N'Derya', N'Kara', N'Kahramanmaraş', N'Onikişubat', 912.30),
+    (N'Oğuz', N'Ateş', N'Aydın', N'Efeler', 1140.00),
+    (N'Pınar', N'Uçar', N'Muğla', N'Menteşe', 2480.95),
+    (N'Emre', N'Başaran', N'Sivas', N'Merkez', 505.00),
+    (N'Nazlı', N'Taş', N'Ordu', N'Altınordu', 865.65),
+    (N'Caner', N'Altun', N'Diyarbakır', N'Kayapınar', 1985.00),
+    (N'Selin', N'Yavuz', N'Tokat', NULL, 290.40),
+    (N'Burak', N'Keskin', N'Edirne', N'Merkez', 1420.10);
+
+    -------------------------------------------------------------------------------------------------------------------------------------
