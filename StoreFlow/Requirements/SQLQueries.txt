@@ -176,3 +176,14 @@ FROM (VALUES
     (50, 21, 1, '2025-02-10')
 ) AS v (ProductId, CustomerId, OrderCount, OrderDate)
 JOIN Products p ON p.ProductId = v.ProductId;
+
+
+     -------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO Activities (Title, Description, ActivityTime)
+VALUES
+    (N'Sevkiyat Çıkışı', N'Depo 3 - 12 koli sevk', '09:30:00'),
+    (N'Kargo Teslimi', N'Şube A teslim alındı', '11:15:00'),
+    (N'Toplantı', N'Haftalık stok kontrolü', '14:00:00'),
+    (N'Mal Alımı', N'Tedarikçi X: 300 adet', '15:45:00'),
+    (N'Dönem Sonu Sayımı', N'Raf sayımı tamamlandı', '17:30:00');
