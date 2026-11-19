@@ -120,6 +120,9 @@ namespace StoreFlow.Migrations
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
+                    b.Property<string>("Status")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<decimal>("TotalPrice")
                         .HasColumnType("decimal(18,2)");
 
